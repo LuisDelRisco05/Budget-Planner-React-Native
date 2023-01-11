@@ -230,7 +230,7 @@ const App = () => {
             visible={openModal}
             transparent={true}
           >
-           <ExpenseForm 
+            <ExpenseForm 
               setOpenModal={ setOpenModal } 
               handleExpense={ handleExpense } 
               expense={ expense }
